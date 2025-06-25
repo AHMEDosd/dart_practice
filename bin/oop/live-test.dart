@@ -23,5 +23,6 @@ void main() {
   Map<String, double> sortavgScores = {
     for (var entry in entryList) entry.key: entry.value
   };
+
   print(sortavgScores);
 }
